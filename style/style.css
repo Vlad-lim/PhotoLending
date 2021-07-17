@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    padding:0;
+}
+.header{
+    height:100vh;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.815)), url(pexels-photo-733853.jpeg); 
+}
+.tittle{
+    margin: 0;
+    color:white;
+    font-size: 70px;
+    font-family: Arial Black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.tittle hr{
+    background-color: rgb(255, 196, 0);
+    height: 10px;
+    border:none;
+}
+.tittle h1{
+    animation: text 2s 1;
+}
+.tittle p{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.tittle button{
+    width:20%;
+    height:50px;
+    background-color:rgb(255, 196, 0);
+    border:none;
+    color:white;
+    font-family: Arial Black;
+    text-transform: uppercase;
+    font-size:18px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.tittle button:hover{
+    background-color:rgb(192, 142, 3);
+    transition: 0.2s;
+}
+@keyframes text{
+    0%{
+        color:black;
+        margin-bottom: -40px;
+    }
+    45%{
+        color: white;
+        letter-spacing: 10px;
+    }
+    80%{
+        margin-bottom: -10px;
+        opacity: 0.5;
+    }
+
+}
+.section_1{
+    margin-top:200px;
+    height:80vh;
+}
+#hr1{
+    background-color: rgb(255, 196, 0);
+    height: 10px;
+    border:none;
+    margin-right: 45%;
+}
+#hr2{
+    background-color: rgb(255, 196, 0);
+    height: 10px;
+    border:none;
+    margin-left:45%;
+}
+.section_1 img{
+    width:400px;
+    border:6px solid rgb(255, 196, 0);
+    transition:0.5s;
+}
+.FlexDiv{
+    display: flex;
+    justify-content: space-between;
+    padding:50px;
+}
+.imgButton{
+    margin-top: 30px;
+    height:50px;
+    background-color:rgb(255, 196, 0);
+    border:none;
+    color:white;
+    font-family: Arial Black;
+    text-transform: uppercase;
+    font-size:18px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.imgButton:hover{
+    background-color:rgb(192, 142, 3);
+    transition: 0.2s;
+}
+.section_1 img:hover{
+    width:450px;
+    transition:0.5s;
+    cursor:pointer;
+}
+button:hover{
+    cursor:pointer;
+}
+.imgTittle{
+    font-family: Arial Black;
+    margin-left: 50%;
+    transform: translate(-50%);
+    font-size: 28px;
+    color:rgb(32, 32, 32);
+}
